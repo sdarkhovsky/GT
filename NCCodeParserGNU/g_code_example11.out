@@ -1,0 +1,11 @@
+G17 G20 G90 G94 G54
+Rapid positioning Forward 0.250000
+Left 0.500000 Down 0.000000
+Forward 0.100000
+G01 Back 0.000000 F5.
+G02 Left 0.000000 Up 0.500000 I0.5 J0. F2.5
+Right 0.500000 Down 0.000000 I0. J-0.5
+Left 0.000000 Down 0.500000 I-0.5 J0.
+Left 0.500000 Down 0.000000 I0. J0.5
+G01 Forward 0.100000 F5.
+Rapid positioning Left 0.000000 Down 0.000000 Forward 0.250000
